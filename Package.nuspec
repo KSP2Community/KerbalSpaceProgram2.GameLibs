@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>KerbalSpaceProgram2.GameLibs</id>
-    <version>0.1.3.0</version>
+    <version>0.1.5.0</version>
     <authors>Intercept Games</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Game libraries for Kerbal Space Program 2 (stripped of all actual code).</description>

@@ -10,6 +10,7 @@ To create the stripped and publicized libraries for the KerbalSpaceProgram2.Game
 
 1. Clone this repository
 2. Copy the DLLs from `<KSP2>/KSP2_x64_Data/Managed` to the `source` folder. **Do NOT** copy the Unity and standard .NET assemblies, and assemblies of libraries we reference from their own NuGet packages, including:
+    - Microsoft.CSharp.dll
     - mscorlib.dll
     - netsandard.dll
     - Newtonsoft.Json.*.dll
