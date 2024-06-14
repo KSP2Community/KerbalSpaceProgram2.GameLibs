@@ -6,13 +6,13 @@ set "source=source"
 set "publicized=lib"
 
 if exist "%publicized%" (
-    echo Deleting publicized: %publicized%
+    echo Deleting stripped: %publicized%
     rmdir /s /q "%publicized%"
 )
 mkdir "%publicized%"
 
 for %%F in ("%source%\*.dll") do (
-    echo Publicizing %%F
+    echo Stripping %%F
     assembly-publicizer "%%F" -o "%publicized%\%%~nxF" --strip
 )
 
